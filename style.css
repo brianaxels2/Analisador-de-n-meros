@@ -1,0 +1,37 @@
+body {
+    background-color: #21d5fdc0;
+}
+#flista {
+    width: 150px;
+}
+header {
+    text-align: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.651);
+    width: 600px;
+    margin: auto;
+}
+#a {
+    background-color: rgba(5, 94, 5, 0.795);
+    color: white;
+    border-radius: 5px;
+}
+#b {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    border-radius: 5px;
+}
+#a:hover {
+    background-color: rgba(0, 167, 0, 0.87);
+    transition: 0.5s;
+}
+#b:hover {
+    background-color: rgba(59, 59, 59, 0.877);
+    transition: 0.5s;
+}
